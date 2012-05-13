@@ -1,4 +1,6 @@
-﻿namespace Kodecsharp.Example.Intro
+﻿using System;
+
+namespace Kodecsharp.Example.Intro
 {
     /// <summary>
     /// HelloWorld in C#
@@ -10,7 +12,7 @@
             //
             // Say hello to the world!
             //
-            System.Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
         }
     }
 }

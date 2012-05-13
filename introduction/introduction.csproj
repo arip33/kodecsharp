@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Kodecsharp.Example.Intro.PropertyDemo</StartupObject>
+    <StartupObject>Kodecsharp.Example.Intro.HelloWorld</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,12 +47,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoImplementedProperty.cs" />
+    <Compile Include="BreakDemo.cs" />
     <Compile Include="CommandLineParameter.cs" />
+    <Compile Include="CommentExample.cs" />
+    <Compile Include="ContinueDemo.cs" />
+    <Compile Include="DoWhileDemo.cs" />
+    <Compile Include="ForDemo.cs" />
     <Compile Include="ForeachDemo.cs" />
     <Compile Include="HelloWorld.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="IfDemo.cs" />
+    <Compile Include="IfElseDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyDemo.cs" />
+    <Compile Include="SwitchDemo.cs" />
+    <Compile Include="WhileDemo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,7 +9,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kodecsharp.Example.System</RootNamespace>
-    <AssemblyName>Kodecsharp.Example.System</AssemblyName>
+    <AssemblyName>Kodecsharp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Kodecsharp.Example.System.UniqueArray</StartupObject>
+    <StartupObject>Kodecsharp.Example.System.LogicalDriveDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CurrentDirectory.cs" />
+    <Compile Include="EnvironmentExample.cs" />
+    <Compile Include="EnvironmentVariablesDemo.cs" />
+    <Compile Include="GetCommandLine.cs" />
+    <Compile Include="GetTemporaryDirectory.cs" />
+    <Compile Include="LogicalDriveDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UniqueArray.cs" />
   </ItemGroup>
