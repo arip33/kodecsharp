@@ -9,9 +9,10 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kodecsharp.Example.Intro</RootNamespace>
-    <AssemblyName>introduction</AssemblyName>
+    <AssemblyName>Kodecsharp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Kodecsharp.Example.Intro.HelloWorld</StartupObject>
+    <StartupObject>Kodecsharp.Example.Intro.ReadKeyModifier</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,8 +60,15 @@
     <Compile Include="IfElseDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyDemo.cs" />
+    <Compile Include="ReadKeyModifier.cs" />
+    <Compile Include="ReadSingleChar.cs" />
+    <Compile Include="ReadSingleKey.cs" />
+    <Compile Include="ReadUserInput.cs" />
     <Compile Include="SwitchDemo.cs" />
     <Compile Include="WhileDemo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
